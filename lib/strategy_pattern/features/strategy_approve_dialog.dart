@@ -21,7 +21,7 @@ class StrategyApproveDialog extends StatelessWidget {
     return Dialog(
       child: Column(
         children: [
-          const Text('---------- Random Approve ------------'),
+          const Text('---------- Random Approved ------------'),
           ElevatedButton(
             onPressed: () => context.route.pop(StrategyResult.success),
             child: const Icon(Icons.check),
